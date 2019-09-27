@@ -187,15 +187,16 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 60vh;
-  overflow: visible;
+  height: 50vh;
+  overflow: auto;
 }
 .right_tableRoomValues {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 40vw;
+  width: 35vw;
+  padding: 2% 0;
 }
 .right_tableRoomValuesLeft {
   display: flex;
@@ -246,17 +247,34 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-content: right;
+  align-content: center;
+  align-items: center;
   width: 40vw;
+  height: 90px;
 }
 .right__bottomButtonsSave {
   border: 1px solid #51a3ce;
   border-radius: 20px;
   opacity: 1;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  align-content: center;
+  display: flex;
 }
 .right__bottomButtonsContinue {
   background: #51a3ce 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
   margin-left: 5%;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+}
+.right__buttonText {
+  margin: auto;
+  text-align: center;
 }
