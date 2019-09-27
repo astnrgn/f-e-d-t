@@ -1,6 +1,6 @@
 @font-face {
   font-family: Avenir;
-  src: url("Avenir\ Next.ttc") format("truetype");
+  src: url("./Avenir Next.ttc") format("truetype");
 }
 html,
 body {
@@ -150,4 +150,13 @@ p {
   background: green;
   width: 50vw;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.right__elem {
+  border-top: 1px solid black;
+  width: 50vw;
+  height: 10vh;
 }
