@@ -78,10 +78,11 @@ p {
   display: grid;
   grid-template-columns: 75px, 590px, 75px;
   grid-template-rows: 75px, 381px, 150px;
+  color: #51a3ce;
 }
-.left__elem {
+/* .left__elem {
   border: 1px solid black;
-}
+} */
 .left__addressBox {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
@@ -119,10 +120,12 @@ p {
   background-image: url("./images/leftFloorPlan/Group 18879.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 590px;
   height: 381px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
+  align-self: center;
 }
 .left__backBox {
   display: flex;
@@ -131,6 +134,17 @@ p {
   align-items: center;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
+}
+.left__chevron {
+  background-image: url("./images/leftFloorPlan/UI\ Icon-Icon-chevron--left-$ui-05.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 7px;
+  height: 12px;
+  margin: 0 5px;
+}
+.left__back {
+  font-size: 14px;
 }
 .right {
   background: green;
