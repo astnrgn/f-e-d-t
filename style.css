@@ -155,7 +155,7 @@ p {
   align-items: center;
 }
 .right_tableContainer {
-  width: 50vw;
+  width: 42vw;
 }
 /* .right__elem {
   border-top: 1px solid black;
@@ -163,20 +163,17 @@ p {
 .right_tableAssignments {
   margin: 5% 0;
 }
-.right__tableTitle,
-.right__tableValues {
+.right__tableTitle {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 5% 0;
 }
-/* .right__tableTitle {
-  width: 60vw;
-} */
 .right__tableValues {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .right__tableInfoLogo {
@@ -190,7 +187,7 @@ p {
 .right_tableRooms {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 60vh;
   overflow: auto;
@@ -200,7 +197,8 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 35vw;
+  width: 40vw;
+  padding: 3% 0;
 }
 .right_tableRoomValuesLeft {
   display: flex;
@@ -247,15 +245,19 @@ p {
   opacity: 1;
   border-radius: 30px;
 }
+.right__bottomButtonsWrapper {
+  border-top: 0.5px solid rgb(177, 190, 200);
+  width: 50vw;
+  margin: 0;
+}
 .right__bottomButtons {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-content: center;
   align-items: center;
-  width: 50vw;
+  width: 46vw;
   height: 90px;
-  border-top: 0.5px solid rgb(177, 190, 200);
 }
 .right__bottomButtonsSave {
   border: 1px solid #51a3ce;
