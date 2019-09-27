@@ -65,16 +65,54 @@ p {
   background-repeat: no-repeat;
   width: 11.091px;
   height: 11.091px;
-  margin: 5%;
+  margin: 0 5% 0;
 }
 .center {
   display: flex;
   justify-content: center;
 }
 .left {
-  background: blue;
+  background: #34373c;
   width: 50vw;
   height: 90vh;
+  display: grid;
+  grid-template-columns: 50px, 100px, 50px;
+  grid-template-rows: 100px, 100px, 100px;
+}
+.left__elem {
+  border: 1px solid black;
+}
+.left__addressBox {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.left__address {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.left_imgs {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left__floorplan {
+  background-image: url("./images/leftFloorPlan/Group 18879.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 590px;
+  height: 381px;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.left__backBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
 }
 .right {
   background: green;
