@@ -40,21 +40,33 @@ p {
   align-items: center;
   width: 50vw;
 }
-.nav__elem2 {
-  border: 1px solid black;
-  background: cyan;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 .nav__spacetrics {
   background-image: url("./images/SPACETRICS.svg");
-  /* background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   width: 134px;
   height: 27px;
 }
-
+.nav__elem2 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+}
+.nav__smiley {
+  background-image: url("./images/Group 17056.svg");
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+}
+.nav__arrow {
+  background-image: url("./images/Path 38263.svg");
+  background-repeat: no-repeat;
+  width: 11.091px;
+  height: 11.091px;
+  margin: 5%;
+}
 .center {
   display: flex;
   justify-content: center;
