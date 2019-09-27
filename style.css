@@ -199,11 +199,12 @@ p {
   align-items: center;
   width: 40vw;
   padding: 3% 0;
+  border-top: 0.5px solid rgb(177, 190, 200);
 }
 .right_tableRoomValuesLeft {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .right_tableRoomValuesLeftLogoX {
@@ -213,6 +214,8 @@ p {
   background-size: cover;
   width: 17px;
   height: 21px;
+}
+.right_tableRoomValuesText {
 }
 .right_tableRoomValuesLeftPencile {
   background-image: url("./images/rightFloorInfo/UI Icon-Glyph-edit-$ui-05.svg");
