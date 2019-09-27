@@ -41,7 +41,7 @@ p {
   width: 50vw;
 }
 .nav__spacetrics {
-  background-image: url("./images/SPACETRICS.svg");
+  background-image: url("./images/nav/SPACETRICS.svg");
   background-repeat: no-repeat;
   width: 134px;
   height: 27px;
@@ -55,13 +55,13 @@ p {
   width: 10vw;
 }
 .nav__smiley {
-  background-image: url("./images/Group 17056.svg");
+  background-image: url("./images/nav/Group 17056.svg");
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
 }
 .nav__arrow {
-  background-image: url("./images/Path 38263.svg");
+  background-image: url("./images/nav/Path 38263.svg");
   background-repeat: no-repeat;
   width: 11.091px;
   height: 11.091px;
