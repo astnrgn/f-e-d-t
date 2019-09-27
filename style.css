@@ -1,8 +1,40 @@
 @font-face {
   font-family: Avenir;
-  font-weight: medium;
   src: url("Avenir\ Next.ttc") format("truetype");
 }
-.test {
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
   font-family: "Avenir";
+}
+p {
+  margin: 0;
+}
+.nav,
+.left,
+.right {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.nav {
+  background: red;
+  height: 10vh;
+}
+.left {
+  background: blue;
+  width: 50vw;
+  height: 90vh;
+}
+.right {
+  background: green;
+  width: 50vw;
+  height: 90vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
