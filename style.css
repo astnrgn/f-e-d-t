@@ -21,19 +21,19 @@ p {
   text-align: center;
 }
 .nav {
-  background: red;
+  background: #ffffff;
   height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(177, 190, 200);
 }
 .nav__elem {
   border: 1px solid black;
 }
 .nav__elem1 {
-  border: 1px solid black;
-  background: gold;
+  /* background: gold; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -47,7 +47,6 @@ p {
   height: 27px;
 }
 .nav__elem2 {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -121,7 +120,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 590px;
+  width: 45vw;
   height: 381px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
@@ -147,7 +146,7 @@ p {
   font-size: 14px;
 }
 .right {
-  background: green;
+  background: #ffffff;
   width: 50vw;
   height: 90vh;
   display: flex;
@@ -156,18 +155,24 @@ p {
   align-items: center;
 }
 .right_tableContainer {
-  width: 40vw;
+  width: 50vw;
 }
-.right__elem {
+/* .right__elem {
   border-top: 1px solid black;
+} */
+.right_tableAssignments {
+  margin: 5% 0;
 }
 .right__tableTitle,
 .right__tableValues {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
+/* .right__tableTitle {
+  width: 60vw;
+} */
 .right__tableValues {
   display: flex;
   flex-direction: row;
@@ -187,7 +192,7 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   overflow: auto;
 }
 .right_tableRoomValues {
@@ -196,7 +201,6 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 35vw;
-  padding: 2% 0;
 }
 .right_tableRoomValuesLeft {
   display: flex;
@@ -249,8 +253,9 @@ p {
   justify-content: flex-end;
   align-content: center;
   align-items: center;
-  width: 40vw;
+  width: 50vw;
   height: 90px;
+  border-top: 0.5px solid rgb(177, 190, 200);
 }
 .right__bottomButtonsSave {
   border: 1px solid #51a3ce;
