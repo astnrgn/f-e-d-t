@@ -10,17 +10,17 @@
   font-family: Avenir Next DemiBold;
   src: url("./fonts/AvenirNext-DemiBold-03.ttf") format("truetype");
 }
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-}
-body {
   font-family: "Avenir Next Regular";
-}
-p {
-  margin: 0;
 }
 .nav,
 .left,
@@ -29,7 +29,7 @@ p {
 }
 .nav {
   background: #ffffff;
-  height: 10vh;
+  height: 9.9vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -84,9 +84,6 @@ p {
   grid-template-rows: 75px, 381px, 150px;
   color: #51a3ce;
 }
-/* .left__elem {
-  border: 1px solid black;
-} */
 .left__addressBox {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
@@ -165,9 +162,6 @@ p {
 .right_tableContainer {
   width: 42vw;
 }
-/* .right__elem {
-  border-top: 1px solid black;
-} */
 .right_tableAssignments {
   margin: 5% 0;
   font-family: "Avenir Next Regular";
@@ -282,7 +276,7 @@ p {
   align-content: center;
   align-items: center;
   width: 46vw;
-  height: 90px;
+  height: 75px;
   font-family: "Avenir Next Regular";
   font-size: 14px;
 }
