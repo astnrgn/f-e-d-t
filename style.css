@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Avenir;
+  font-weight: medium;
+  src: url("Avenir\ Next.ttc") format("truetype");
+}
+.test {
+  font-family: "Avenir";
+}
