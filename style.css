@@ -161,6 +161,7 @@ body {
 }
 .right_tableContainer {
   width: 42vw;
+  text-align: center;
 }
 .right_tableAssignments {
   margin: 2% 0;
