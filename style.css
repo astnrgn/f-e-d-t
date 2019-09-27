@@ -76,8 +76,8 @@ p {
   width: 50vw;
   height: 90vh;
   display: grid;
-  grid-template-columns: 50px, 100px, 50px;
-  grid-template-rows: 100px, 100px, 100px;
+  grid-template-columns: 75px, 590px, 75px;
+  grid-template-rows: 75px, 381px, 150px;
 }
 .left__elem {
   border: 1px solid black;
@@ -89,13 +89,31 @@ p {
 .left__address {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .left_imgs {
   grid-column: 3 / span 1;
   grid-row: 1 / span 1;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.left__topRightLogoLeft {
+  background-image: url("./images/leftFloorPlan/Group 18843.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.left__topRightLogoRight {
+  background-image: url("./images/leftFloorPlan/Rectangle 13414.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 11.5px;
+  height: 20px;
 }
 .left__floorplan {
   background-image: url("./images/leftFloorPlan/Group 18879.png");
