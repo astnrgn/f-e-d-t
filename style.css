@@ -155,8 +155,89 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.right_tableContainer {
+  width: 40vw;
+}
 .right__elem {
   border-top: 1px solid black;
-  width: 50vw;
-  height: 10vh;
+}
+.right__tableTitle,
+.right__tableValues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.right__tableValues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right__tableInfoLogo {
+  background-image: url("./images/rightFloorInfo/Group 19107.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+}
+.right_tableRooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right_tableRoomValues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+.right_tableRoomValuesLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right_tableRoomValuesLeftLogoX {
+  background-image: url("./images/rightFloorInfo/Group 19080.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 17px;
+  height: 21px;
+}
+.right_tableRoomValuesLeftPencile {
+  background-image: url("./images/rightFloorInfo/UI Icon-Glyph-edit-$ui-05.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 16px;
+  height: 15px;
+}
+.right_tableRoomValuesLeftTrash {
+  background-image: url("./images/rightFloorInfo/UI Icon-delete-$ui-05.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 12px;
+  height: 16px;
+}
+
+.right_tableRoomValuesRightDots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-end;
+}
+.right_tableRoomValuesRightDotPath {
+  width: 16px;
+  height: 16px;
+  background: #72e5c2 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 2px #00000076;
+  opacity: 1;
+  border-radius: 30px;
 }
