@@ -12,7 +12,7 @@
 }
 html {
   height: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 body {
   min-height: 100%;
@@ -329,7 +329,7 @@ body {
   }
   .nav {
     background: #ffffff;
-    height: 8vh;
+    height: 100pt;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -345,21 +345,21 @@ body {
     background-image: url("./images/nav/SPACETRICS.svg");
     background-repeat: no-repeat;
     width: 134px;
-    height: 30px;
+    height: 40px;
   }
   .nav__barsMobile {
     display: inline-block;
     background-image: url("./images/nav/Group 19125.svg");
     background-repeat: no-repeat;
     width: 20px;
-    height: 12px;
+    height: 30px;
   }
   .nav__barsMobileBalance {
     display: inline-block;
     background-image: url("./images/nav/Group 19125.svg");
     background-repeat: no-repeat;
     width: 20px;
-    height: 12px;
+    height: 30px;
     visibility: hidden;
   }
   .center {
@@ -370,7 +370,7 @@ body {
   }
   .leftBox {
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -381,7 +381,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-    font-size: 18px;
+    font-size: 25px;
     font-family: "Avenir Next Regular";
   }
   .left__address,
@@ -418,8 +418,8 @@ body {
     display: none;
   }
   .rightBox {
-    width: 100vw;
-    height: 1400px;
+    width: 100%;
+    height: 2400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -430,8 +430,105 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
-    overflow: hidden;
+    height: 80vh;
+    overflow: none;
+  }
+  .right_tableContainer {
+    width: 90vw;
+    text-align: center;
+  }
+  .right_tableAssignments {
+    margin: 2% 0;
+    font-family: "Avenir Next Regular";
+    font-size: 35px;
+    color: #6a7074;
+  }
+  .right__tableTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+    font-family: "Avenir Next DemiBold";
+    font-size: 30px;
+    color: #152935;
+  }
+  .right__tableValues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right__tableInfoLogo {
+    background-image: url("./images/rightFloorInfo/Group 19107.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+  }
+  .right_tableRooms {
+    overflow: none;
+  }
+  .right_tableRoomValues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 88vw;
+    box-shadow: 0px 1px 0px #bcbab8;
+  }
+  .right_tableRoomValuesLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+  }
+  .right_tableRoomValuesLeftLogoX {
+    background-image: url("./images/rightFloorInfo/Group 19080.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17px;
+    height: 21px;
+  }
+  .right_tableRoomValuesText {
+    font-family: "Avenir Next Regular";
+    font-size: 32px;
+    color: #6a7074;
+  }
+  .right_tableRoomValuesLeftPencile {
+    background-image: url("./images/rightFloorInfo/UI Icon-Glyph-edit-$ui-05.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 16px;
+    height: 15px;
+  }
+  .right_tableRoomValuesLeftTrash {
+    background-image: url("./images/rightFloorInfo/UI Icon-delete-$ui-05.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 12px;
+    height: 16px;
+    margin: 0 5px;
+  }
+  .right_tableRoomValuesRightDots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .right_tableRoomValuesRightDotPath {
+    width: 26px;
+    height: 26px;
+    background: #72e5c2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #00000076;
+    opacity: 1;
+    border-radius: 60px;
+    margin: 0 10px;
   }
   .right__bottomButtonsWrapper {
     display: none;
@@ -443,10 +540,19 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Avenir Next Regular";
-    font-size: 14px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 300px;
+  }
+  .right__bottomButtonsSave,
+  .right__bottomButtonsContinue {
+    font-size: 25px;
+    border-radius: 40px;
+    opacity: 1;
+    width: 200px;
     height: 75px;
+    text-align: center;
+    font-size: 20px;
   }
 }
