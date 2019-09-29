@@ -52,9 +52,8 @@ body {
   width: 134px;
   height: 27px;
 }
-.nav__spacetricsMobile {
-  display: none;
-}
+.nav__spacetricsMobile,
+.nav__barsMobileBalance,
 .nav__barsMobile {
   display: none;
 }
@@ -90,6 +89,9 @@ body {
   grid-template-columns: 75px, 590px, 75px;
   grid-template-rows: 75px, 381px, 150px;
   color: #51a3ce;
+}
+.left__addressAndLogosMobile {
+  display: none;
 }
 .left__addressBox {
   grid-column: 1 / span 1;
@@ -337,7 +339,6 @@ body {
     background-repeat: no-repeat;
     width: 134px;
     height: 30px;
-    float: none;
   }
   .nav__barsMobile {
     display: inline-block;
@@ -360,14 +361,54 @@ body {
     justify-content: center;
     align-content: center;
   }
-
   .leftBox {
     width: 100vw;
-    height: 25vh;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .left__addressAndLogosMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 18px;
+    font-family: "Avenir Next Regular";
+  }
+  .left__address,
+  .left_imgs {
+    display: none;
+  }
+  .left__topRightLogoLeft {
+    background-image: url("./images/leftFloorPlan/Group 18843.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  .left__topRightLogoRight {
+    background-image: url("./images/leftFloorPlan/Rectangle 13414.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11.5px;
+    height: 20px;
+    display: inline-block;
+  }
+  .left__floorplan {
+    background-image: url("./images/leftFloorPlan/Group 18879.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 290pt;
+    height: 187.41pt;
+  }
+  .left__backBox,
+  .left__chevron,
+  .left__chevron {
+    display: none;
   }
   .rightBox {
     background: green;
