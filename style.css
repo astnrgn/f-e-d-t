@@ -12,6 +12,7 @@
 }
 html {
   height: 100%;
+  overflow: hidden;
 }
 body {
   min-height: 100%;
@@ -321,9 +322,8 @@ body {
     background: #ffffff;
     height: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    font-size: 16px;
     font-family: "Avenir Next M";
     color: #6a7074;
   }
@@ -336,20 +336,43 @@ body {
     background-image: url("./images/nav/SPACETRICS.svg");
     background-repeat: no-repeat;
     width: 134px;
-    height: 27px;
+    height: 30px;
+    float: none;
   }
   .nav__barsMobile {
-    display: block;
+    display: inline-block;
     background-image: url("./images/nav/Group 19125.svg");
     background-repeat: no-repeat;
     width: 20px;
     height: 12px;
-    float: right;
+  }
+  .nav__barsMobileBalance {
+    display: inline-block;
+    background-image: url("./images/nav/Group 19125.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 12px;
+    visibility: hidden;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .leftBox {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .rightBox {
     background: green;
-    width: 50vw;
-    height: 90vh;
+    width: 100vw;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
