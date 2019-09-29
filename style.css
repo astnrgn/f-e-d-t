@@ -342,16 +342,16 @@ body {
   }
   .nav__spacetricsMobile {
     display: inline-block;
-    background-image: url("./images/nav/SPACETRICS.svg");
+    background-image: url("./images/mobile/nav/SPACETRICS_Mobile.svg");
     background-repeat: no-repeat;
-    width: 134px;
-    height: 40px;
+    width: 350px;
+    height: 125px;
   }
   .nav__barsMobile {
     display: inline-block;
-    background-image: url("./images/nav/Group 19125.svg");
+    background-image: url("./images/mobile/nav/Group 19125_Mobile.svg");
     background-repeat: no-repeat;
-    width: 20px;
+    width: 50px;
     height: 30px;
   }
   .nav__barsMobileBalance {
@@ -379,9 +379,9 @@ body {
   .left__addressAndLogosMobile {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
-    font-size: 25px;
+    font-size: 35px;
     font-family: "Avenir Next Regular";
   }
   .left__address,
@@ -389,28 +389,28 @@ body {
     display: none;
   }
   .left__topRightLogoLeft {
-    background-image: url("./images/leftFloorPlan/Group 18843.svg");
+    background-image: url("./images/mobile/leftFloorPlan/Group 18843_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
   }
   .left__topRightLogoRight {
-    background-image: url("./images/leftFloorPlan/Rectangle 13414.svg");
+    background-image: url("./images/mobile/leftFloorPlan/Rectangle 13414_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 11.5px;
-    height: 20px;
+    width: 45px;
+    height: 40px;
     display: inline-block;
   }
   .left__floorplan {
-    background-image: url("./images/leftFloorPlan/Group 18879.png");
+    background-image: url("./images/mobile/leftFloorPlan/Group 18879_Mobile.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 290pt;
-    height: 187.41pt;
+    width: 600pt;
+    height: 400pt;
   }
   .left__backBox,
   .left__chevron,
@@ -419,7 +419,7 @@ body {
   }
   .rightBox {
     width: 100%;
-    height: 2400px;
+    height: 2300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -440,7 +440,7 @@ body {
   .right_tableAssignments {
     margin: 2% 0;
     font-family: "Avenir Next Regular";
-    font-size: 35px;
+    font-size: 40px;
     color: #6a7074;
   }
   .right__tableTitle {
@@ -450,7 +450,7 @@ body {
     align-items: center;
     margin: 0 0;
     font-family: "Avenir Next DemiBold";
-    font-size: 30px;
+    font-size: 35px;
     color: #152935;
   }
   .right__tableValues {
@@ -460,12 +460,12 @@ body {
     align-items: center;
   }
   .right__tableInfoLogo {
-    background-image: url("./images/rightFloorInfo/Group 19107.svg");
+    background-image: url("./images/mobile/rightFloorInfo/Group 19107_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
   }
   .right_tableRooms {
     overflow: none;
@@ -483,37 +483,36 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 225px;
+    width: 275px;
   }
   .right_tableRoomValuesLeftLogoX {
-    background-image: url("./images/rightFloorInfo/Group 19080.svg");
+    background-image: url("./images/mobile/rightFloorInfo/Group 19080_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 17px;
-    height: 21px;
+    width: 26px;
+    height: 30px;
   }
   .right_tableRoomValuesText {
     font-family: "Avenir Next Regular";
-    font-size: 32px;
+    font-size: 40px;
     color: #6a7074;
   }
   .right_tableRoomValuesLeftPencile {
-    background-image: url("./images/rightFloorInfo/UI Icon-Glyph-edit-$ui-05.svg");
+    background-image: url("./images/mobile/rightFloorInfo/UI Icon-Glyph-edit-$ui-05_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 16px;
-    height: 15px;
+    width: 26px;
+    height: 30px;
   }
   .right_tableRoomValuesLeftTrash {
-    background-image: url("./images/rightFloorInfo/UI Icon-delete-$ui-05.svg");
+    background-image: url("./images/mobile/rightFloorInfo/UI Icon-delete-$ui-05_Mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 12px;
-    height: 16px;
-    margin: 0 5px;
+    width: 26px;
+    height: 30px;
   }
   .right_tableRoomValuesRightDots {
     display: flex;
@@ -522,8 +521,8 @@ body {
     align-items: center;
   }
   .right_tableRoomValuesRightDotPath {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     background: #72e5c2 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 2px #00000076;
     opacity: 1;
