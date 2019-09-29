@@ -12,7 +12,7 @@
 }
 html {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 body {
   min-height: 100%;
@@ -323,6 +323,10 @@ body {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    height: 100%;
+    overflow: auto;
+  }
   .nav {
     background: #ffffff;
     height: 8vh;
@@ -366,7 +370,7 @@ body {
   }
   .leftBox {
     width: 100vw;
-    height: 350px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -415,7 +419,7 @@ body {
   }
   .rightBox {
     width: 100vw;
-    height: 25vh;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -426,36 +430,23 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;
-    overflow: auto;
+    height: 90vh;
+    overflow: hidden;
   }
   .right__bottomButtonsWrapper {
     display: none;
   }
   .right__bottomButtonsWrapperMobile {
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: "Avenir Next Regular";
     font-size: 14px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 90px;
-  }
-  /* .right__bottomButtonsWrapperMobile {
-    display: none;
-  }
-  .right__bottomButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
-    width: 46vw;
     height: 75px;
-    font-family: "Avenir Next Regular";
-    font-size: 14px;
-  } */
+  }
 }
